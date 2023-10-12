@@ -37,7 +37,7 @@ form input{
     font-weight: bolder;
     border-radius: 40%;
     margin:3%;
-    background-color: rgba(21, 125, 194, 0.882);
+    background-color: rgba(39, 114, 163, 0.882);
     box-shadow:7px 7px 10px rgb(28, 28, 28) ;
     font-size:large;
 }
@@ -51,3 +51,26 @@ form input:hover{
     font-size:x-large;
 }
 
+@media screen and (max-width:1000Ppx){
+    body .container{
+        width:55%;
+        height:auto;
+    }
+
+    .container form{
+        width:78%;
+        height:89%;
+    }
+}
+
+@media screen and (max-width:900Ppx){
+    body .container{
+        width:75%;
+        height:auto;
+    }
+
+    .container form{
+        width:78%;
+        height:89%;
+    }
+}
