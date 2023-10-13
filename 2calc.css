@@ -29,6 +29,7 @@ form .display input{
     margin-bottom: 40px;
     width:280px;
     border-radius:10%;
+    background-color:skyblue;
 }
 
 form input{
@@ -39,7 +40,7 @@ form input{
     margin:3%;
     background-color: rgba(39, 114, 163, 0.882);
     box-shadow:7px 7px 10px rgb(28, 28, 28) ;
-    font-size:large;
+    font-size:20px;
 }
 
 form input.equal{
@@ -48,7 +49,7 @@ form input.equal{
 }
 
 form input:hover{
-    font-size:x-large;
+    font-size:30px;
 }
 
 @media screen and (max-width:1000Ppx){
